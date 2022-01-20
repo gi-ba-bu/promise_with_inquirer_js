@@ -2,10 +2,29 @@
 
 ## A simple interactive js script with inquirer 
 
+How the script works.
+
 The script will prompt the user to choose from an arrow menu.
 
-![image](https://user-images.githubusercontent.com/88339527/150437486-14e25b5d-bcf4-4974-9a4c-0121f7a7c7b1.png)
+```
+$ node index.js
+Hi, welcome to Node Pets Admin
+Neon is the name of your dog. Right now his hunger level is 8 and his happiness level is 10.
+? What would you like to do right now? (Use arrow keys)
+> Feed him a treat
+  Play with him in the garden
+  Walk him to the park
+  Nothing today, just chill
+```
 
-After the user choice, the selected action is a promise that will be resolved. After 4 seconds, a message signals that the promise has been resolved.  
+After the user choice, the selected action is a promise that will be resolved. 4 seconds gone by, a message signals that the promise has been resolved.  
 
-![image](https://user-images.githubusercontent.com/88339527/150437368-a31291a2-3045-42cf-abe4-097d811b5738.png)
+```
+$ node index.js
+Hi, welcome to Node Pets Admin
+Neon is the name of your dog. Right now his hunger level is 8 and his happiness level is 10.
+? What would you like to do right now? Feed him a treat
+
+As wished! His hunger level is now 3 and his happiness level is 11.
+
+```
