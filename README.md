@@ -4,7 +4,7 @@
 
 How the script works.
 
-The script will prompt the user to choose from an arrow menu.
+The script prompts the user to choose an option from an arrow menu.
 
 ```
 $ node index.js
